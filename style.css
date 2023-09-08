@@ -1,0 +1,1041 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80");
+  font-family: "Abel", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+nav ul li a:hover {
+  color: crimson;
+  font-size: 1.02rem;
+  border-bottom: 2px solid black;
+}
+nav .left {
+  margin: 0 -151px;
+}
+.left {
+  font-size: 1.5rem;
+  margin: 0 20px;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 0;
+  width: 100%;
+  height: 70vh;
+  background-color: black;
+}
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 100px;
+}
+.leftSection span {
+  color: rgb(0, 0, 0);
+}
+.left img {
+  width: 60px;
+  height: 50px;
+  border-radius: 50px;
+}
+.btnn {
+  padding: 10px 15px;
+  margin: 23px 5px;
+  background-color: crimson;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+}
+.btnn:hover {
+  background-color: rgb(157, 243, 27);
+  color: black;
+  cursor: pointer;
+}
+.rightSection {
+  width: 80%;
+}
+.rightSection img {
+  width: 30wh;
+  height: 57vh;
+  padding-top: 50px;
+}
+.cont {
+  font-size: 0.8rem;
+  padding-top: 8px;
+  color: gray;
+  font-weight: lighter;
+}
+#element {
+  color: crimson;
+}
+
+.aboutTitle {
+  text-align: center;
+  font-weight: bold;
+  margin-left: 150px;
+  margin-bottom: 40px;
+  background-color: #121888;
+  color: white;
+  width: 80vw;
+  height: 40px;
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-bottom: 40px;
+  background-color: #121888;
+  color: white;
+  width: 80vw;
+  height: 40px;
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.intern{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  background-color: #121888;
+  color: white;
+  width: 80vw;
+  height: 40px;
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.containt1 {
+  width: 350px;
+  height: 300px;
+  perspective: 800px;
+  padding-left: 80px;
+}
+.containt1:hover > .projectCard1 {
+  cursor: pointer;
+  transform: rotateY(180deg) rotateZ(180deg);
+}
+.projectCard1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform: transform (1500ms);
+  transform-style: preserve-3d;
+}
+.front1,
+.back1 {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px black;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.front1 {
+  background-image: url("https://us.123rf.com/450wm/nikvart/nikvart2002/nikvart200200233/140340874-game-tic-tac-toe-pretzel-sticks-and-macaroons.jpg?ver=6");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.back1 {
+  background-color: crimson;
+  color: white;
+  transform: rotateY(180deg) rotateZ(180deg);
+  flex-direction: column;
+}
+.back1 p {
+  background-color: greenyellow;
+  color: black;
+  font-weight: bold;
+  padding: 10px 2px;
+  padding-left: 10px;
+  margin: 20px 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2.2px 1px black;
+}
+.backContaint1 {
+  font-size: 11px;
+  margin: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.visit1 li a {
+  padding: 10px 10px;
+  color: greenyellow;
+  font-size: 12px;
+  background-color: greenyellow;
+  color: #000000;
+  text-decoration: none;
+  box-shadow: 1px 1px 0 1px black;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.visit1 li a:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.containt2 {
+  width: 350px;
+  height: 300px;
+  perspective: 800px;
+  padding-left: 80px;
+}
+.containt2:hover > .projectCard2 {
+  cursor: pointer;
+  transform: rotateY(180deg) rotateZ(180deg);
+}
+.projectCard2 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform: transform (1500ms);
+  transform-style: preserve-3d;
+}
+.front2,
+.back2 {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px black;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.front2 {
+  background-image: url("https://media.istockphoto.com/id/531633071/vector/calculator.jpg?s=612x612&w=0&k=20&c=TrSndAw_fs5LVFqagmF16aqpKb7ZYzyMZ7bVL3QVyP8=");
+  background-size: 300px;
+  background-position: center;
+}
+.back2 {
+  background-color: crimson;
+  color: white;
+  transform: rotateY(180deg) rotateZ(180deg);
+  flex-direction: column;
+}
+.back2 p {
+  background-color: greenyellow;
+  color: black;
+  font-weight: bold;
+  padding: 10px 2px;
+  padding-left: 10px;
+  margin: 20px 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2.2px 1px black;
+}
+.backContaint2 {
+  font-size: 11px;
+  margin: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.visit2 li a {
+  padding: 10px 10px;
+  color: greenyellow;
+  font-size: 12px;
+  background-color: greenyellow;
+  color: #000000;
+  text-decoration: none;
+  box-shadow: 1px 1px 0 1px black;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.visit2 li a:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.containt3 {
+  width: 350px;
+  height: 300px;
+  perspective: 800px;
+  padding-left: 80px;
+}
+.containt3:hover > .projectCard3 {
+  cursor: pointer;
+  transform: rotateY(180deg) rotateZ(180deg);
+}
+.projectCard3 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform: transform (1500ms);
+  transform-style: preserve-3d;
+}
+.front3,
+.back3 {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px black;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.front3 {
+  background-image: url("https://media.istockphoto.com/id/1319625327/photo/shopping-basket-full-of-variety-of-grocery-products-food-and-drink-on-yellow-background.jpg?s=612x612&w=0&k=20&c=GHyTjlkoFweJnbAadmn4tzEYvfiB73MTe93KMT3GIM0=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.back3 {
+  background-color: crimson;
+  color: white;
+  transform: rotateY(180deg) rotateZ(180deg);
+  flex-direction: column;
+}
+.back3 p {
+  background-color: greenyellow;
+  color: black;
+  font-weight: bold;
+  padding: 10px 2px;
+  padding-left: 10px;
+  margin: 20px 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2.2px 1px black;
+}
+.backContaint3 {
+  font-size: 11px;
+  margin: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.visit3 li a {
+  padding: 10px 10px;
+  color: greenyellow;
+  font-size: 12px;
+  background-color: greenyellow;
+  color: #000000;
+  text-decoration: none;
+  box-shadow: 1px 1px 0 1px black;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.visit3 li a:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.containt4 {
+  width: 350px;
+  height: 300px;
+  perspective: 800px;
+  padding-left: 80px;
+}
+.containt4:hover > .projectCard4 {
+  cursor: pointer;
+  transform: rotateY(180deg) rotateZ(180deg);
+}
+.projectCard4 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform: transform (1500ms);
+  transform-style: preserve-3d;
+}
+.front4,
+.back4 {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px black;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.front4 {
+  background-image: url("https://media.istockphoto.com/id/531889697/photo/weather-forecast-concept.jpg?s=612x612&w=0&k=20&c=FsYyo1HrL9WCpYt4RUzV39qIqEpz6ylTXxVxlh95lR8=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.back4 {
+  background-color: crimson;
+  color: white;
+  transform: rotateY(180deg) rotateZ(180deg);
+  flex-direction: column;
+}
+.back4 p {
+  background-color: greenyellow;
+  color: black;
+  font-weight: bold;
+  padding: 10px 2px;
+  padding-left: 10px;
+  margin: 20px 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2.2px 1px black;
+}
+.backContaint4 {
+  font-size: 11px;
+  margin: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.visit4 li a {
+  padding: 10px 10px;
+  color: greenyellow;
+  font-size: 12px;
+  background-color: greenyellow;
+  color: #000000;
+  text-decoration: none;
+  box-shadow: 1px 1px 0 1px black;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.visit4 li a:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.containt5 {
+  width: 350px;
+  height: 300px;
+  padding-top: 40px;
+  perspective: 800px;
+  padding-left: 80px;
+}
+.containt5:hover > .projectCard5 {
+  cursor: pointer;
+  transform: rotateY(180deg) rotateZ(180deg);
+}
+.projectCard5 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform: transform (1500ms);
+  transform-style: preserve-3d;
+}
+.front5,
+.back5 {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px black;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.front5 {
+  background-image: url("https://digiday.com/wp-content/uploads/sites/3/2022/12/candy-crush.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.back5 {
+  background-color: crimson;
+  color: white;
+  transform: rotateY(180deg) rotateZ(180deg);
+  flex-direction: column;
+}
+.back5 p {
+  background-color: greenyellow;
+  color: black;
+  font-weight: bold;
+  padding: 10px 2px;
+  padding-left: 10px;
+  margin: 20px 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2.2px 1px black;
+}
+.backContaint5 {
+  font-size: 11px;
+  margin: 0 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.visit5 li a {
+  padding: 10px 10px;
+  color: greenyellow;
+  font-size: 12px;
+  background-color: greenyellow;
+  text-decoration: none;
+  box-shadow: 1px 1px 0 1px black;
+  color: #000000;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.visit5 li a:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.title2 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 150px;
+  background-color: #121888;
+  color: white;
+  width: 80vw;
+  height: 40px;
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#skill{
+  height: 200vh;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.skills h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+  color: white;
+}
+.skillCard {
+  background-color: rgb(0, 0, 0);
+  width: 900px;
+  height: 400px;
+  margin: 50px 300px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2.2px 1px greenyellow;
+}
+.hardskill h1 {
+  padding-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.skillLogo {
+  display: inline-block;
+  padding: 30px 0;
+}
+.skillLogo img {
+  width: 130px;
+  /* height: 140px; */
+  padding: 10px 30px;
+  padding-bottom: 30px;
+  margin-left: 25px;
+  box-shadow: 0 1px 2.2px 0 green;
+}
+.softSkill {
+  background-color: rgb(0, 0, 0);
+  width: 900px;
+  height: 400px;
+  margin-top: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 2.2px 1px greenyellow;
+}
+.softSkill h1 {
+  padding-top: 20px;
+}
+.skill1 {
+  padding-top: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.skill1 li {
+  background-color: rgb(74, 74, 74);
+}
+.skill2 {
+  padding-top: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.skill2 li {
+  background-color: rgb(74, 74, 74);
+}
+.skill3 {
+  padding-top: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.skill3 li {
+  background-color: rgb(74, 74, 74);
+}
+.skill4 {
+  padding-top: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.skill4 li {
+  background-color: rgb(74, 74, 74);
+}
+
+.hobbies {
+  background-color: rgb(0, 0, 0);
+  width: 900px;
+  height: 350px;
+  margin-top: 60px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 2.2px 1px greenyellow;
+}
+.hobbies h1 {
+  padding-top: 20px;
+}
+.hobbie1 {
+  padding-top: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.hobbie1 li {
+  background-color: rgb(74, 74, 74);
+}
+.hobbie2 {
+  padding-top: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.hobbie2 li {
+  background-color: rgb(74, 74, 74);
+}
+.hobbie3 {
+  padding-top: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.hobbie3 li {
+  background-color: rgb(74, 74, 74);
+}
+.contactTitle{
+  font-size: 1.7rem;
+  font-weight: bold;
+ text-align: center;
+  color: black;
+}
+.containt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  background-color: crimson;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 2vw;
+  width: 30%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+form input,form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 10px;
+  outline:2px solid black;
+  border-radius: 2px;
+  background: white;
+  font-size: 16px;
+  
+}
+form #button{
+  padding: 10px;
+  background-color: greenyellow;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  border: 0;
+  outline: 2px solid;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 400px;
+  margin: 20px auto 0;
+}
+form input:hover{
+  border: 1px dashed black;
+}
+form textarea:hover{
+  border: 1px dashed black;
+}
+form #button:hover{
+  background-color: #121888;
+  color: white;
+}
+
+footer{
+  background-color: rgb(17, 23, 82);
+  height: 10vh;
+  color: white;
+  margin-top: 10%;
+  width: 100%;  
+}
+.footerMain{
+  text-align: center;
+  padding-top: 25px;
+}
+
+.toggle-btn{
+  width: 45px;
+  position: absolute;
+  right: 80px;
+  top:20px;
+  display: none;
+}
+.toggle-btn span{
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 8px;
+}
+
+@media(max-width:991px){
+  .toggle-btn{
+    display: block;
+  }
+  nav{
+    display: none;
+    width: 100%;
+    border-top: 1px solid crimson;
+    flex-direction: column;
+    align-items: start;
+  }
+  nav ul{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+    margin-top: 0;
+    margin-left: -90px;
+  }
+  nav ul li{
+    text-align: center;
+    width: 100%;
+  }
+  nav ul li a{
+    margin: 1rem 0.5rem;
+}
+  nav.show{
+    display: block;
+  }
+}
+
+@media (max-width:1024px){
+  .firstSection {
+    display: grid;
+    justify-content: center;
+    margin: 30px 40px;
+    width: 100%;
+    height: 0;
+    background-color: black;
+  }
+  .firstSection > div {
+    width:80%;
+  }
+  .leftSection {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-right: 100px;
+  }
+  .leftSection span {
+    color: rgb(0, 0, 0);
+  }
+  .btnn {
+    padding: 5px 10px;
+    margin: 20px 0;
+    font-size: 15px;
+  }
+  .btnn:hover {
+    background-color: rgb(157, 243, 27);
+    color: black;
+    cursor: pointer;
+  }
+  .rightSection {
+    width: 0%;
+  }
+  .rightSection img {
+    width: 20wh;
+    height: 34vh;
+    margin-top: 0;
+  }
+  .left img {
+    display: none;
+  }
+  .cont {
+    font-size: 10px;
+    padding-top: 8px;
+    color: gray;
+    font-weight: lighter;
+  }
+  #element {
+    color: crimson;
+    font-size: 1.2rem;
+  }
+  .aboutTitle {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 80vw;
+    height: 40px;
+    padding: 5px;
+  }
+  #about{
+    padding-top:700px ;
+  }
+ #card {
+  margin-top:30px;
+ }
+ .intern{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#intern1{
+  width: 320px;
+  margin-left: 40px;
+}
+#intern2{
+  width: 320px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.title {
+  text-align: center;
+  margin-top: 80px;
+  margin-left:40px;
+  margin-bottom: 70px;
+  width: 80vw;
+  height: 40px;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+.containt1 {
+  width: 350px;
+  height: 300px;
+  perspective: 800px;
+  padding:0 40px;
+}
+.projectCard1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform: transform (1500ms);
+  transform-style: preserve-3d;
+}
+.containt2 {
+  width: 350px;
+  height: 300px;
+  perspective: 800px;
+  padding:0 40px;
+  margin-top: 40px;
+}
+.projectCard2 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform: transform (1500ms);
+  transform-style: preserve-3d;
+}
+.containt3 {
+  width: 350px;
+  height: 300px;
+  perspective: 800px;
+  padding:0 40px;
+  margin-top: 40px;
+}
+.projectCard3 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform: transform (1500ms);
+  transform-style: preserve-3d;
+}
+.containt4 {
+  width: 350px;
+  height: 300px;
+  perspective: 800px;
+  padding:0 40px;
+  margin-top: 40px;
+}
+.projectCard4 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform: transform (1500ms);
+  transform-style: preserve-3d;
+}
+.containt5 {
+  width: 350px;
+  height: 300px;
+  perspective: 800px;
+  padding:0 40px;
+  margin-top: 40px;
+}
+.projectCard5 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform: transform (1500ms);
+  transform-style: preserve-3d;
+}
+.title2 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.skills {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.skillCard {
+  width: 340px;
+  height: 730px;
+  margin: 30px 5px 20px 10px;
+}
+.softSkill {
+  width: 340px;
+  height: 380px;
+  margin: 30px 5px 20px 0;
+}
+.skill1 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.skill1 li{
+  list-style: none;
+}
+.skill2 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.skill2 li{
+  list-style: none;
+}
+.skill3 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.skill3 li{
+  list-style: none;
+}
+.skill4 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.skill4 li{
+  list-style: none;
+}
+.hobbies {
+  width: 340px;
+  height: 310px;
+  margin: 40px 5px 20px 0;
+}
+.hobbies h1 {
+  padding-top: 20px;
+}
+.hobbie1 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.hobbie1 li {
+  list-style: none;
+  background-color: rgb(74, 74, 74);
+}
+.hobbie2 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.hobbie2 li {
+  list-style: none;
+  background-color: rgb(74, 74, 74);
+}
+.hobbie3 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hobbie3 li {
+  list-style: none;
+  width: 310px;
+  background-color: rgb(74, 74, 74);
+}
+/* #skill{
+  height: 200vh;
+} */
+.contactTitle{
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 130px;
+  color: black;
+}
+.containt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 2vw;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+form #button{
+  padding: 10px;
+  width: 300px;
+  margin: 5px auto 0;
+}
+}
